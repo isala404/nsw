@@ -12,8 +12,7 @@ connections:
     endpoint: api
     visibility: project
     envBindings:
-      - from: address
-        to: OGA_FCAU_URL
+      address: OGA_FCAU_URL
 configurations:
   env:
     - name: VITE_API_BASE_URL

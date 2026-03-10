@@ -12,8 +12,7 @@ connections:
     endpoint: api
     visibility: project
     envBindings:
-      - from: address
-        to: NSW_BACKEND_URL
+      address: NSW_BACKEND_URL
 configurations:
   env:
     - name: VITE_API_BASE_URL

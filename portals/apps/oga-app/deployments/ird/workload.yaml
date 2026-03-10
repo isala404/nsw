@@ -12,8 +12,7 @@ connections:
     endpoint: api
     visibility: project
     envBindings:
-      - from: address
-        to: OGA_IRD_URL
+      address: OGA_IRD_URL
 configurations:
   env:
     - name: VITE_API_BASE_URL
