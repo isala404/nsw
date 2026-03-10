@@ -8,6 +8,7 @@ COPY apps/trader-app/package.json apps/trader-app/
 RUN pnpm install --frozen-lockfile
 COPY packages/ packages/
 COPY apps/trader-app/ apps/trader-app/
+COPY tsconfig.json ./
 RUN pnpm --filter trader-app build
 
 FROM nginx:1.27-alpine
